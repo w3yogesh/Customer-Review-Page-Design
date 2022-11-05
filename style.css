@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #edf2f8;
+    font-family: system-ui;
+    margin:auto;
+    width: 70%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+.box {
+    background-color: #2196F3;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.box1 {
+    grid-column: 1 / 5;
+    background: #eeee;
+    border-radius: 20px;
+    padding: 20px;
+    background: #733fc8;
+}
+
+img.avtar {
+    border-radius: 100px;
+    display: inline-block;
+    width: 25px;
+    margin: 0 10px 0 0;
+}
+
+h4.name {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    font-size: 14px;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+}
+
+.box3 {grid-row: 1/4;grid-column: 6;}
+
+.box5 {
+    grid-column: 2 / 6;
+    background: #18202d;
+}
+span {
+    font-size: 10px;
+    color: #fff8dc6b;
+}
+
+.box2 {
+    background: #49556b;
+}
+
+.box4 {
+    background: #ffffff;
+}
+.box3 span,.box4 span {
+    color: #22222285;
+}
+
+.box5 .name {
+    color: #d2d2d2;
+}
+
+.box5 p {
+    color: #eee;
+}
+.box1 p, .box2 p {
+    color: #eeeeeeba;
+}
+.box2 h4 {
+    color: #eee;
+}
+@media only screen and (max-width: 768px) {
+.box {
+    margin: 0 0 10px 0;
+}
+
+.wrapper {
+    display: block;
+}
+}
